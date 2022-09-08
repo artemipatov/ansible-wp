@@ -1,0 +1,7 @@
+[aws_ec2]
+3.122.234.54
+
+[aws_ec2:vars]
+ansible_ssh_private_key_file=~/.ssh/test-ansible-wp.pem
+ansible_user=ubuntu
+ansible_port=1234
